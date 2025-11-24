@@ -66,7 +66,7 @@
     }
 
     .brand img{
-      height:56px; 
+      height:35px; 
       width:auto; 
       display:block; 
       border-radius:8px;
@@ -224,6 +224,8 @@
       display:inline-flex; 
       gap:12px; 
       align-items:center;
+      padding-top: 2rem;
+      padding-left: 6rem;
     }
 
     .btn{
@@ -632,9 +634,9 @@
     .contact-form{
       grid-template-columns:1fr;
     }
-    .hero-right{
+    /* .hero-right{
       display:none;
-    }
+    } */
 }
 
 @media(max-width:700px){
@@ -644,6 +646,9 @@
 
     .hamburger{
       display:inline-block;
+    }
+    .hero-right img{
+      width:40%;
     }
 
     .services-grid{
